@@ -244,7 +244,7 @@ function solvopt(x::Vector,fun;grad=[],options=[],func=[],gradc=[])
     kflat = 0                         #counter for points of flatness
     stepvanish = 0                    #counter for vanished steps
     stopf = 0
-    kd=0   #NOTE: i added this
+    kd=[]   #NOTE: i added this
     #----}  End of setting constants
     #----}  End of the preamble
 
